@@ -5,4 +5,4 @@ before_install:
   - docker build -t vbrar/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run USERNAME/docker-react npm run test -- --coverage
+  - docker run vbrar/docker-react npm run test -- --coverage
